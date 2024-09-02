@@ -1,0 +1,25 @@
+{
+  "name": "pos-simulation-testing",
+  "version": "1.0.0",
+  "description": "1. PROJECT OVERVIEW\r A project to simulate and test a simple POS system using Cypress, Postman, and SQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dag86/pos-simulation-testing.git"
+  },
+  "keywords": [],
+  "author": "Amir Choshov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dag86/pos-simulation-testing/issues"
+  },
+  "homepage": "https://github.com/Dag86/pos-simulation-testing#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
