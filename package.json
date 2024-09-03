@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "1. PROJECT OVERVIEW\r A project to simulate and test a simple POS system using Cypress, Postman, and SQL",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --experimental-modules ./Testing_main"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,13 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.19.2",
+    "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "sinon": "^18.0.0",
+    "supertest": "^7.0.0"
   }
 }
