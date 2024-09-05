@@ -1,7 +1,7 @@
 # pos-simulation-testing
 
 1. PROJECT OVERVIEW
-A project to simulate and test a simple POS system using Cypress, Postman, and SQL
+A project to simulate and test a simple POS system 
 
 2. SETUP INSTRUCTIONS.
 
